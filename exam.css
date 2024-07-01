@@ -1,0 +1,69 @@
+.t1{
+    font-weight: 800;
+    font-size: 35px;
+}
+.i1{
+    margin-right: 30px;
+}
+.i2{
+    margin-right: 35px;
+}
+.i3{
+    margin-right: 200px;
+}
+.A{
+    background-image: url('./images/colored-vegetables-white-background.jpg');
+    height: 500px;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a1{
+    padding-top: 100px;
+    margin-left: 150px;
+    color: #947704;
+}
+.a2{
+    padding-top: 10px;
+    margin-left: 150px;
+    color: #3c9700;
+    font-size: 60px;
+    font-weight: 600;
+}
+.search {
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    margin-left: 150px;
+  }
+  
+  .search input[type="text"] {
+    width: 400px;
+    height: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e9303;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 25px 20px;
+    margin-top: 5px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+    height: 20px;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 56, 4);
+  }
